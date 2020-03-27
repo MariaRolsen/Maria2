@@ -1,0 +1,107 @@
+/**
+ * fil: css/style.css
+ **/
+
+
+
+
+/* Ændre tabellen tykkelse */ 
+table {
+    border: 7px solid black;
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 2px solid black;
+    
+}
+
+/* Ændre baggrundsfarven */ 
+body {
+     background-image:url(forside.jpg);
+    height: inherit;
+    background-size: 800px;
+    background-position: bottom;
+    
+    }
+
+.nav-bar{
+    background: black;
+    height: 80px; 
+    
+    }
+    
+    .menuone{
+    float:left;
+    margin: 15px; 
+    margin-left: 100px;
+    margin-top: 5px;
+    
+      
+}
+
+
+
+.menuone li{
+ 
+    display: inline-block;
+    margin: 10px 5px; 
+    text-transform:uppercase;
+    
+}
+
+.menuone li a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 10px;
+    font-family:'Roboto Condensed';
+    letter-spacing: 4px;
+       
+}
+.menutwo{
+    
+    float:right;
+    list-style: none;
+    margin: 15px;
+    margin-right: 100px;
+    margin-top: 5px;
+    
+}
+
+.menutwo li{
+ 
+    display: inline-block;
+    margin: 10px 5px; 
+    text-transform:uppercase;
+    
+}
+
+.menutwo li a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 10px;
+    font-family:'Roboto Condensed';
+    letter-spacing: 4px;
+   
+    
+    
+}
+
+
+
+    
+    
+}
+/* Ændre farve*/
+table, th, td {
+    /* Ændre skriftfarve */
+    color: #fff;
+    /* Ændre farven på tabelkanten*/
+    border-color: #fff;
+}
+
+/**
+ * fil: css/style.css
+ **/
